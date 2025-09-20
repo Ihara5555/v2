@@ -229,7 +229,7 @@ async function connectToWA() {
       }
       _0x4b9a40.message = getContentType(_0x4b9a40.message) === "ephemeralMessage" ? _0x4b9a40.message.ephemeralMessage.message : _0x4b9a40.message;
       if (_0x4b9a40.key && _0x4b9a40.key.remoteJid === "status@broadcast" && config.AUTO_READ_STATUS === "true") {
-        const _0x9cfae1 = ['🧩', '🍉', '💜', '🌸', '🪴', '💊', '💫', '🍂', '🌟', '🎋', '😶‍🌫️', '🫀', '🧿', '👀', '🤖', '🚩', '🥰', '🗿', '💜', '💙', '🌝', '🖤', '💚'];
+        const _0x9cfae1 = ['', '🍉', '💜', '🌸', '🪴', '💊', '💫', '🍂', '🌟', '🎋', '😶‍🌫️', '🫀', '🧿', '👀', '🤖', '🚩', '🥰', '🗿', '💜', '💙', '🌝', '🖤', '💚'];
         const _0xb62b97 = _0x9cfae1[Math.floor(Math.random() * _0x9cfae1.length)];
         await _0x55533e.readMessages([_0x4b9a40.key]);
         const _0xe3f2e9 = await jidNormalizedUser(_0x55533e.user.id);
@@ -747,7 +747,7 @@ async function connectToWA() {
         if (_0x5cd917) {
           return;
         }
-        _0x43833d.react("👾");
+        _0x43833d.react("");
       }
       if (_0x12771f && config.CMD_ONLY_READ == "true") {
         await _0x55533e.readMessages([_0x4b9a40.key]);
